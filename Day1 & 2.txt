@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang ="en">
+	<head>
+		<title>this is title</title>
+	</head>
+	<body >
+		<h1>Here is a first paragraph of text.</h1><hr>
+		<h2>Here is a first paragraph of text.</h2><hr>
+		<h3>Here is a first paragraph of text.</h3><hr>
+		<h4>Here is a first paragraph of text.</h4><hr>
+		<center><p>Here is a <i>second paragraph of</i> text.</p></center>
+		<p >Here is a <u>third <b>paragraph</b> of</u> text.</p>
+		<br>
+		
+		<a href="https://www.youtube.com/?gl=IN&tab=w1"> click here to see youtube </a><br>
+		<a href="https://www.youtube.com/?gl=IN&tab=w1" target="_blank">click here to see  youtube</a>
+<br>
+		<p align="left">This is left aligned</p>
+		<p align="center">This is center aligned</p>
+		<p align="right">This is right aligned</p>
+<br>
+		<p>The following word uses a <sup>superscript</sup> typeface.</p>
+		<p>The following word uses a <sub>subscript</sub> typeface.</p>	
+		
+		<img src="699736.jpg"  alt="Girl with a jacket" width="320" height="240">
+<br>
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+<ul type="square">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+<ul type="circle">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<ol type="I">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<ol type="i">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>		
+		<ol type="a">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>	
+<ol type="A">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>		
+	
+
+
+
+
+	</body>
+</html
