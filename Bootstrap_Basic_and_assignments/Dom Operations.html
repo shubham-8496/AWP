@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <title>All in ONE JS</title>
+    <script src="./increment.js"></script>
+</head>
+
+<body>
+    <div style="display: flex ; flex-direction: column; justify-content: center;align-items: center;height: 100vh;">
+
+        <div style=" margin: 10px; " id="commentbox">
+
+        </div>
+        <div style=" margin: 10px; " id="commentbox_1">
+
+        </div>
+
+
+
+        <div id="counter">1</div>
+        <div style="display: flex;margin: 10px;">
+            <button onclick="increment()" style="margin: 10px;">Increment</button>
+            <button onclick="decrement()" style=" margin: 10px;">Decrement</button>
+            <button onclick="comment()" style="margin: 10px;">Comment Here</button>
+            <button onclick="like()" id="like" style="margin: 10px;">Like </button>
+            <input type="text" name="" id="newcomment">
+            <button onclick="newcomment()" style="margin: 10px;">write Comment Here</button>
+
+        </div>
+
+        <div style="background:chocolate; margin: 10px; " id="commentbox">
+
+        </div>
+        <div style="background:chocolate; margin: 10px; " id="commentbox_1">
+
+        </div>
+
+</body>
+
+</html>

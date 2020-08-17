@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Raleway', sans-serif;
+            color: #fff;
+            font-size: 18px;
+           
+            
+        }
+        
+        .container{
+            margin-left: 400px;
+            margin-right: 400px;
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+             
+        }
+        .box{
+            display: flex;
+            flex-direction: column;
+            /* height: 100vh; */
+            background: #344a72; 
+            border: 1px solid black;
+            justify-content: center;
+            align-items: center;
+            padding: 50px;
+            
+        }
+        #box_01{
+            display: flex;
+            font-size: 30px;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        #box_1{
+            /* background: #333; */
+            flex: 1;
+            display: flex;
+            
+        }
+        #box_1 .demo_1{
+            display: flex;
+            flex: 1;
+            align-items: center;
+            justify-content: center;
+            margin-left: 30px;
+            height: 50px;
+            margin-top: 10px;
+        }
+       
+        
+        #box_2{
+            /* background: darkgray; */
+            display: flex;
+            flex: 1;
+            margin-top: 10px;
+            /* margin-left: 30px; */
+            height: 50px;
+            text-align: center;
+            justify-content: center;
+            margin-left: 30px;
+            
+        }
+        
+        
+        #box_3{
+            /* background:#333; */
+            flex: 1;
+            margin-top: 10px;
+            margin-left: 30px;
+            height: 50px;
+            text-align: center;
+            justify-content: center;
+        }
+        #box_4{
+            /* background: darkgray; */
+            flex: 1;
+            margin-top: 10px;
+            margin-left: 30px;
+            height: 50px;
+            text-align: center;
+            justify-content: center;
+        }
+        #box_5{
+            /* background: #333; */
+            flex: 1;
+            margin-top: 10px;
+            margin-left: 30px;
+            height: 50px;
+            text-align: center;
+            justify-content: center;
+        }
+        button{
+            background-color: #49c1a2;
+            border: none;
+            font-size: 14px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+            justify-content: center;
+        }
+        .btn:hover{
+            background: #37a08e;
+        }
+ 
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box">
+        <div id="box_01">
+            login Here
+        </div>
+        <div id="box_1">
+           <div class="demo_1"> 
+            <label for="firstname">FirstName : </label>
+            <input type="text" id="firstname" name="firstname">
+           </div>           
+        </div>
+        <div id="box_2">
+            <div class="demo_1">
+            <label for="lastname">LastName : </label>
+            <input type="text" id="lastname" name="lastname">
+        </div>
+        </div>
+        <div id="box_3">
+            <div class="demo_1">
+                <input type="checkbox" id="Remember Me" name="remember me">
+            <label for="Remember Me">Remember Me</label>
+            
+        </div>
+        </div>
+        <div id="box_4">
+            <div class="demo_1">
+            <input type="checkbox" id="Keep Me signed In" name="Keep Me signed In">
+            <label for="Keep me Signed In">Keep Me signed In</label>
+            
+        </div>
+        </div>
+        <div id="box_5">
+            <button class="btn" type="signup">SignUp</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .first
+        {
+            background: #333;
+            height: 80px;
+            
+        }
+        #flex{
+            display: flex;
+        }
+        #mid1{
+            background: darkgrey;
+            height: 400px;
+            flex: 1;
+            margin: 2px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #mid2{
+            background: darkgrey;
+            height: 400px;
+            flex: 4;
+            margin: 2px;
+            border: 1px solid #333;
+        }
+        #mid3{
+            background: darkgrey;
+            height: 400px;
+            flex: 1;
+            margin: 2px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class=first></div>
+    <div id="flex">
+        <div id="mid1">A</div>
+        <div  id="mid2"></div>
+        <div id="mid3"></div>
+    </div>
+    <div class=first></div>
+</body>
+</html>
